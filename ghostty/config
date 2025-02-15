@@ -1,0 +1,7 @@
+theme = rose-pine-moon
+font-size = 15
+font-feature = calt=0
+
+cursor-color=ffffff
+shell-integration-features = no-cursor
+cursor-style = block

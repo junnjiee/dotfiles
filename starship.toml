@@ -1,0 +1,77 @@
+format = """
+[](overlay)\
+$os\
+$username\
+[](bg:surface fg:overlay)\
+$directory\
+[](bg:overlay fg:surface)\
+$git_branch\
+[](bg:surface fg:overlay)\
+$conda\
+[](fg:surface)\
+$fill\
+[](overlay)\
+$time\
+[](overlay)\
+$line_break[ 󱞪 ](fg:pine)
+"""
+
+palette = "rose-pine-moon"
+
+[palettes.rose-pine]
+overlay = "#26233a"
+love = "#eb6f92"
+gold = "#f6c177"
+rose = "#ebbcba"
+pine = "#31748f"
+foam = "#9ccfd8"
+iris = "#c4a7e7"
+surface = "#1f1d2e"
+
+[palettes.rose-pine-moon]
+overlay = "#393552"
+love = "#eb6f92"
+gold = "#f6c177"
+rose = "#ea9a97"
+pine = "#3e8fb0"
+foam = "#9ccfd8"
+iris = "#c4a7e7"
+surface = "#2a273f"
+
+[os]
+style = "bg:overlay fg:rose"
+disabled=false
+
+[os.symbols]
+Macos = "󰀵"
+Ubuntu = "󰕈"
+Windows = "󰍲"
+
+[username]
+style_user = "bg:overlay fg:rose"
+format = "[ $user ]($style)"
+show_always = true
+disabled = false
+
+[directory]
+style = "bg:surface fg:foam"
+format = "[   $path ]($style)"
+truncation_length = 0
+truncate_to_repo = false
+
+[git_branch]
+style = "bg:overlay fg:iris"
+format = "[ $symbol $branch ]($style)"
+
+[conda]
+style = "bg:surface fg:love"
+format = "[ $symbol $environment ]($style)"
+
+[time]
+style = "bg:overlay fg:gold"
+format = "[ 󱑒 $time ]($style)"
+disabled = false
+time_format = "%R"
+
+[fill]
+symbol = ' '
