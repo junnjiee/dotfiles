@@ -1,6 +1,6 @@
 # dotfiles
 
-Personal dotfiles.
+Super lean set-up.
 
 ## Notes
 
