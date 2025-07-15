@@ -1,10 +1,10 @@
 return {
-    'saghen/blink.cmp',
+    "saghen/blink.cmp",
     -- optional: provides snippets for the snippet source
-    dependencies = 'rafamadriz/friendly-snippets',
+    dependencies = "rafamadriz/friendly-snippets",
 
     -- use a release tag to download pre-built binaries
-    version = '*',
+    version = "*",
 
     opts = {
         -- 'default' for mappings similar to built-in completion
@@ -12,8 +12,13 @@ return {
         -- 'enter' for mappings similar to 'super-tab' but with 'enter' to accept
         -- See the full "keymap" documentation for information on defining your own keymap.
         keymap = {
-            preset = 'default',
-            ['<C-o>'] = { 'select_and_accept' }
+            preset = "default",
+            ["<C-o>"] = { "select_and_accept" },
+        },
+
+        cmdline = {
+            keymap = { preset = "inherit" },
+            completion = { menu = { auto_show = true } },
         },
 
         appearance = {
@@ -23,7 +28,7 @@ return {
             use_nvim_cmp_as_default = true,
             -- Set to 'mono' for 'Nerd Font Mono' or 'normal' for 'Nerd Font'
             -- Adjusts spacing to ensure icons are aligned
-            nerd_font_variant = 'mono'
-        }
-    }
+            nerd_font_variant = "mono",
+        },
+    },
 }

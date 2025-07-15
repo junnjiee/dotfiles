@@ -65,6 +65,7 @@ return {
             require("mason-lspconfig").setup({
                 ensure_installed = { "lua_ls", "ts_ls", "gopls", "jsonls", "html", "cssls" },
                 automatic_installation = false,
+                automatic_enable = true,
             })
         end,
     },
