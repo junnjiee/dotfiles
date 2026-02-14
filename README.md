@@ -1,6 +1,6 @@
 # MacOS Dotfiles
 
-Symlink into `~/.config` directory
+To create symlink in `~/.config` directory from current directory:
 
 ```
 stow -t ~/.config <package-name>
