@@ -1,3 +1,7 @@
 # MacOS Dotfiles
 
-Use `stow`
+Symlink into `~/.config` directory
+
+```
+stow -t ~/.config <package-name>
+```
