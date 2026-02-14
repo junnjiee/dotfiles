@@ -1,11 +1,9 @@
 # command line utils
-brew "eza"
 brew "zoxide"
+brew "eza"
 brew "fzf"
-brew "mise"
 brew "ripgrep"
 brew "stow"
-brew "pnpm"
 
 # neovim + dependencies
 brew "luarocks"
@@ -18,10 +16,12 @@ brew "fastfetch"
 brew "starship"
 
 # terminal dev tools
+brew "container"
 brew "lazygit"
 brew "btop"
 brew "yazi"
-brew "container"
+brew "mise"
+brew "pnpm"
 brew "anomalyco/tap/opencode"
 cask "claude-code"
 cask "codex"
