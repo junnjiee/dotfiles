@@ -1,0 +1,3 @@
+# MacOS Dotfiles
+
+Use `stow`
