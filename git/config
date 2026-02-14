@@ -1,0 +1,12 @@
+[user]
+name = jj
+email = 71215065+junnjiee@users.noreply.github.com
+
+[init]
+	defaultBranch = main
+[pull]
+	rebase = true            # Rebase (instead of merge) on pull
+[push]
+	autoSetupRemote = true   # Automatically set upstream branch on push
+[branch]
+	sort = -committerdate    # Sort branches by most recent commit first
