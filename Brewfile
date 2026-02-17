@@ -41,6 +41,10 @@ cask "visual-studio-code"
 cask "figma"
 cask "stats"
 
+# home lab
+brew "syncthing"
+cask "tailscale-app"
+
 # social
 cask "discord"
 cask "telegram"
