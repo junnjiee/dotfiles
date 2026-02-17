@@ -1,18 +1,10 @@
-# zhng my Mac
+# zhng my machines
 
 [zhng](https://www.singlish.net/zhng/)
 
-1. Install [brew](https://brew.sh/) from source
+## Stow
 
-2. Install all applications in `Brewfile`
-
-```
-brew bundle
-```
-
-3. Install [LazyVim](https://www.lazyvim.org/installation)
-
-4. Create symlink in `~/target/dir` from current directory for a package
+1. Create symlink in `~/target/dir` from current directory for a package
 
 ```
 stow -t ~/target/dir <package-name>
@@ -23,3 +15,17 @@ stow -t ~/target/dir <package-name>
 - `-t` -> set target directory (default is parent of current dir)
 - `-n` -> no-op, only show what happens
 - `-v` -> control output verbosity
+
+## Brew
+
+1. Install [brew](https://brew.sh/) from source
+
+2. Install all applications in `Brewfile`
+
+```
+brew bundle
+```
+
+## Vim
+
+1. Install [LazyVim](https://www.lazyvim.org/installation)
