@@ -8,5 +8,5 @@ eval "$(zoxide init zsh --cmd cd)"
 eval "$(starship init zsh)"
 eval "$(mise activate zsh)"
 
-alias ls='eza -1l --group-directories-last --icons=always'
+alias ls='eza -l --group-directories-last --icons=auto'
 alias tailscale="/Applications/Tailscale.app/Contents/MacOS/Tailscale"
