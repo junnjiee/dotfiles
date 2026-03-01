@@ -18,7 +18,7 @@ success_symbol = "[❯](bold)"
 [directory]
 truncation_length = 0
 truncate_to_repo = false
-style = "bold cyan"
+# style = "bold cyan"
 # truncation_symbol = "…/"
 # repo_root_style = "bold"
 # repo_root_format = "[$repo_root]($repo_root_style)[$path]($style)[$read_only]($read_only_style) "
@@ -48,6 +48,6 @@ deleted    = ""
 
 [python]
 style = "blue"
-symbol=" "
+symbol="  "
 pyenv_version_name = true
-format = ' [\[$symbol( $virtualenv)\]]($style)'
+format = ' [\[$symbol($virtualenv )\]]($style)'
