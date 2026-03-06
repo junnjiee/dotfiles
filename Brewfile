@@ -22,18 +22,12 @@ brew "btop"
 brew "yazi"
 brew "mise"
 brew "pnpm"
+cask "ghostty"
+
+# terminal code agents
 brew "anomalyco/tap/opencode"
 cask "claude-code"
 cask "codex"
-cask "ghostty"
-
-# productivity
-cask "obsidian"
-cask "spotify"
-cask "chatgpt"
-cask "claude"
-cask "firefox"
-cask "google-chrome"
 
 # dev tools
 cask "zed"
@@ -44,6 +38,18 @@ cask "stats"
 # home lab
 brew "syncthing"
 cask "tailscale-app"
+
+# productivity
+cask "obsidian"
+cask "spotify"
+
+# LLM providers
+cask "chatgpt"
+cask "claude"
+
+# browsers
+cask "firefox"
+cask "google-chrome"
 
 # social
 cask "discord"
