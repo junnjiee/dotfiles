@@ -9,7 +9,6 @@ eval "$(starship init zsh)"
 eval "$(mise activate zsh)"
 
 alias ls='eza -l --group-directories-last --icons=auto'
-alias tailscale="/Applications/Tailscale.app/Contents/MacOS/Tailscale"
+# alias tailscale="/Applications/Tailscale.app/Contents/MacOS/Tailscale"
 
-# amp
 export PATH="$HOME/.local/bin:$PATH"
