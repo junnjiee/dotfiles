@@ -1,3 +1,5 @@
+tap "nikitabobko/tap"
+
 # command line utils
 brew "zoxide"
 brew "eza"
@@ -40,6 +42,7 @@ brew "syncthing"
 cask "tailscale-app"
 
 # productivity
+cask "aerospace"
 cask "obsidian"
 cask "spotify"
 
